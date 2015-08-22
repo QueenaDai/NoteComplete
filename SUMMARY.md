@@ -23,7 +23,7 @@
        * [静态作用域的管理：词法环境](jsprogramming/variablescope/lexicalenvironment,d.md)
    * [函数表达式与函数运算符](jsprogramming/funciton/README.md)
        * [表达式](jsprogramming/funciton/expressionmd.md)
-       * [运算符](jsprogramming/funciton/operators.md)
+       * [运算符](jsprogramming/funciton/operatorsmd.md)
    * [语句](jsprogramming/statement/README.md)
        * [条件控制语句](jsprogramming/statement/conditioncontrl.md)
        * [循环控制语句](jsprogramming/statement/loopcontrl.md)
