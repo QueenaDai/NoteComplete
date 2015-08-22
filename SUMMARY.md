@@ -29,7 +29,7 @@
        * [循环控制语句](jsprogramming/statement/loopcontrl.md)
        * [异常处理语句](jsprogramming/statement/exceptionhandler.md)
        * [with语句](jsprogramming/statement/with.md)
-   * [闭包](jsprogramming/closures/README.md)
+   * [闭包](jsprogramming/closures/readme.md)
        * [原理](jsprogramming/closures/theory.md)
        * [闭包的应用](jsprogramming/closures/application.md)
    * [面向对象](jsprogramming/objectoriented/README.md)
