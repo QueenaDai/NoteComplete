@@ -24,7 +24,7 @@
    * [函数表达式与函数运算符](jsprogramming/funciton/README.md)
        * [表达式](jsprogramming/funciton/expressionmd.md)
        * [运算符](jsprogramming/funciton/operatorsmd.md)
-   * [语句](jsprogramming/statement/README.md)
+   * [语句](jsprogramming/statement/readme.md)
        * [条件控制语句](jsprogramming/statement/conditioncontrl.md)
        * [循环控制语句](jsprogramming/statement/loopcontrl.md)
        * [异常处理语句](jsprogramming/statement/exceptionhandler.md)
