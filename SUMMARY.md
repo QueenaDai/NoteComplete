@@ -20,7 +20,7 @@
    * [变量作用域](jsprogramming/variablescope/readmemd.md)
        * [作用域介绍](jsprogramming/variablescope/scopeintrodutionmd.md)
        * [js中变量作用域](jsprogramming/variablescope/jsvariablescopemd.md)
-       * [静态作用域的管理：词法环境](jsprogramming/variablescope/lexicalenvironment.,d)
+       * [静态作用域的管理：词法环境](jsprogramming/variablescope/lexicalenvironment,d.md)
    * [函数表达式与函数运算符](jsprogramming/funciton/README.md)
        * [表达式](jsprogramming/funciton/expression.md)
        * [运算符](jsprogramming/funciton/operators.md)
