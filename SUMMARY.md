@@ -17,7 +17,7 @@
        * [标准类型](jsprogramming/typesystem/standardtypemd.md)
        * [类型识别](jsprogramming/typesystem/identitytype.md)
        * [标准内置对象（13种）](jsprogramming/typesystem/standardbuildinobjmd.md)
-   * [变量作用域](jsprogramming/variablescope/README.md)
+   * [变量作用域](jsprogramming/variablescope/readmemd.md)
        * [作用域介绍](jsprogramming/variablescope/scopeintrodution.md)
        * [js中变量作用域](jsprogramming/variablescope/jsvariablescope.md)
        * [静态作用域的管理：词法环境](jsprogramming/variablescope/lexicalenvironment.,d)
