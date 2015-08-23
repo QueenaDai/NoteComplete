@@ -36,17 +36,23 @@ Note: <br />
 ![](2418.PNG)<br />
 <br />
 **类型转换总结**<br />
-|Value|Boolean|Number|String|
-|-----|-------|------|------|
-|undefined|false|NaN|"undefined"|
-|null|false|0|"null"|
-|true|true|1|"true"|
-|false|false|0|"false"|
-|''|false|0|''|
-|'123'|true|123|'123'|
-|'1a'|true|NaN|'1a'|
-|0|false|0|"0"|
-|1|true|1|"1"|
-|Infinity|true|Infinity|"Infinity"|
-|NaN|false|NaN|'NaN'|
-|{}|true|NaN|"[object Object]"|
+
+| type | Value | Boolean | Number | String |
+| -- | -- | -- | -- | -- |
+| **Undefined** | undefined | false | **NaN** | "undefined" |
+| **Null** | null | false | 0 | "null" |
+| **Boolean** | true |  | 1 | **"null"** |
+|  | true |  | 0 | "false" |
+| **String** | "" | false | 0 |  |
+|  | "123" | true | 123 |  |
+|  | "1a" | true | **NaN** |  |
+| **Number** | 0 | false |  | "0" |
+|  | 1 | true |  | "1" |
+|  | -1 | true |  | "-1" |
+|  | Infinity | true |  | "Infinity" |
+|  | NaN | **false** |  | **"NaN"** |
+| **Object** | {} | **true** | **NaN** | **"[object Object]"** |
+
+![](2419.png)<br />
+![](24191.png)<br />
+![](24192.png)<br />
