@@ -24,7 +24,7 @@ Note: <br />
 ![](24133.PNG)
 * 函数未传入的参数<br />
 ![](24134.PNG)<br />
-**案例：**
+**案例：**<br />
 ![](24135.PNG)![](24136.PNG)<br />
 ![](24137.PNG)![](24138.PNG)<br />
 ![](24139.PNG)![](241310.PNG)<br />
@@ -53,6 +53,17 @@ Note: <br />
 |  | NaN | **false** |  | **"NaN"** |
 | **Object** | {} | **true** | **NaN** | **"[object Object]"** |
 
+    * 理论
 ![](2419.png)<br />
+* 左边Object转String：toString后如果是原始值就直接到String，如果是引用值就valueOf()然后到String
+* 右边Object转Number：优先级不同流程同上
+* Object转String或Number：若没有明确Object具体转的类型，那么走的是右边的路，除了Date对象之外？ demo如下结果为面积之和
+加号两边若有一个为String类型则进行的是连接
+
+* 每个JavaScript固有对象的 valueOf，toString 方法定义不同。 》http://www.jb51.net/article/32327.htm
+<br />
+    * 案例
 ![](24191.png)<br />
 ![](24193.png)<br />
+结果：首先类型转换，然后值相加
+![](24194.PNG)
