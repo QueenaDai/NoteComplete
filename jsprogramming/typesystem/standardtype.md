@@ -53,7 +53,6 @@ Note: <br />
 |  | NaN | **false** |  | **"NaN"** |
 | **Object** | {} | **true** | **NaN** | **"[object Object]"** |
 
-    * 理论 <br />
 ![](2419.png)<br />
 * 左边Object转String：toString后如果是原始值就直接到String，如果是引用值就valueOf()然后到String
 * 右边Object转Number：优先级不同流程同上
