@@ -35,4 +35,18 @@ Note: <br />
 ![](2417.PNG)<br />
 ![](2418.PNG)<br />
 <br />
-**类型转换总结**
+**类型转换总结**<br />
+|Value|Boolean|Number|String|
+|-----|-------|------|------|
+|undefined|false|NaN|"undefined"|
+|null|false|0|"null"|
+|true|true|1|"true"|
+|false|false|0|"false"|
+|''|false|0|''|
+|'123'|true|123|'123'|
+|'1a'|true|NaN|'1a'|
+|0|false|0|"0"|
+|1|true|1|"1"|
+|Infinity|true|Infinity|"Infinity"|
+|NaN|false|NaN|'NaN'|
+|{}|true|NaN|"[object Object]"|
