@@ -52,7 +52,7 @@ Note: <br />
 |  | Infinity | true |  | "Infinity" |
 |  | NaN | **false** |  | **"NaN"** |
 | **Object** | {} | **true** | **NaN** | **"[object Object]"** |
-
+ 
     * 理论
 ![](2419.png)<br />
 * 左边Object转String：toString后如果是原始值就直接到String，如果是引用值就valueOf()然后到String
