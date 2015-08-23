@@ -3,7 +3,7 @@
 #2. javascript程序设计
 ##2.1 js介绍
         js历史
-        浏览器中的js       
+        浏览器中的js
         js引入
 ##2.2 调试器
 ##2.3 基本语法(词法重点)
@@ -11,7 +11,7 @@
         关键字和保留字
         大小写敏感
         严格模式
-        注释     
+        注释
 ##2.4 类型系统
         标准类型
             原始类型、引用类型
@@ -31,8 +31,8 @@
                     原型对象的属性、方法
                     实例对象的属性、方法
                 */ END
-  
-                Object  
+
+                Object
                     Object.create
                     Object.prototype.toString
                     Object.prototype.hasOwnProperty
@@ -58,13 +58,13 @@
                         函数重载
                 RegExp
                     RegExp.prototype.test
-                Date  
+                Date
             普通对象
                 /* BEGIN FOR EACH
                     说明
                     属性、方法
                 */ END
-        
+
                 Math
                     Math.floor
                     Math.random
@@ -104,7 +104,7 @@
             逻辑运算：！、&&、||
             运算符优先级
 ##2.7 语句
-        条件控制语句  
+        条件控制语句
         循环控制语句
             for-in
         异常处理语句
@@ -119,7 +119,7 @@
         js面向对象
             constructor
                 自定义构造器
-                3种创建构造器的方式 
+                3种创建构造器的方式
             this
                 5种场景
                 案例

@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>基本语法(词法重点) | Note Complete</title>
+        <title>标准内置对象（13种） | Note Complete</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.2.0">
@@ -25,10 +25,10 @@
         
     
     
-    <link rel="next" href="../../jsprogramming/basicsyntax/variable.html" />
+    <link rel="next" href="../../jsprogramming/variablescope/readmemd.html" />
     
     
-    <link rel="prev" href="../../jsprogramming/debugger/index.html" />
+    <link rel="prev" href="../../jsprogramming/typesystem/identitytype.html" />
     
 
         
@@ -36,7 +36,7 @@
     <body>
         
         
-    <div class="book" data-level="1.3" data-basepath="../.." data-revision="Sun Aug 23 2015 10:42:42 GMT+0800 (中国标准时间)">
+    <div class="book" data-level="1.4.3" data-basepath="../.." data-revision="Sun Aug 23 2015 10:42:42 GMT+0800 (中国标准时间)">
     
 
 <div class="book-summary">
@@ -163,7 +163,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3" data-path="jsprogramming/basicsyntax/index.html">
+        <li class="chapter " data-level="1.3" data-path="jsprogramming/basicsyntax/index.html">
             
                 
                     <a href="../../jsprogramming/basicsyntax/index.html">
@@ -305,7 +305,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4.3" data-path="jsprogramming/typesystem/standardbuildinobjmd.html">
+        <li class="chapter active" data-level="1.4.3" data-path="jsprogramming/typesystem/standardbuildinobjmd.html">
             
                 
                     <a href="../../jsprogramming/typesystem/standardbuildinobjmd.html">
@@ -719,7 +719,99 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95-%E8%AF%8D%E6%B3%95%E9%87%8D%E7%82%B9">&#x57FA;&#x672C;&#x8BED;&#x6CD5;(&#x8BCD;&#x6CD5;&#x91CD;&#x70B9;)</h1>
+                        <h1 id="%E6%A0%87%E5%87%86%E5%86%85%E7%BD%AE%E5%AF%B9%E8%B1%A1%EF%BC%8813%E7%A7%8D%EF%BC%89">&#x6807;&#x51C6;&#x5185;&#x7F6E;&#x5BF9;&#x8C61;&#xFF08;13&#x79CD;&#xFF09;</h1>
+<ul>
+<li>&#x6784;&#x9020;&#x5668;&#x5BF9;&#x8C61;<pre><code>/*
+BEGIN    FOR EACH
+  &#x6784;&#x9020;&#x5668;&#x8BF4;&#x660E;
+  &#x6784;&#x9020;&#x5668;&#x5B9E;&#x4F8B;&#x5316;&#x5BF9;&#x8C61;&#x65B9;&#x6CD5;
+  &#x5C5E;&#x6027;&#x3001;&#x65B9;&#x6CD5;
+  &#x539F;&#x578B;&#x5BF9;&#x8C61;&#x7684;&#x5C5E;&#x6027;&#x3001;&#x65B9;&#x6CD5;
+  &#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;&#x7684;&#x5C5E;&#x6027;&#x3001;&#x65B9;&#x6CD5;
+END
+*/
+</code></pre><ul>
+<li>Object<ul>
+<li>Object.create</li>
+<li>Object.prototype.toString</li>
+<li>Object.prototype.hasOwnProperty</li>
+</ul>
+</li>
+<li>Boolean</li>
+<li>String<ul>
+<li>String.prototype.indexOf</li>
+<li>String.prototype.replace</li>
+<li>String.prototype.split</li>
+</ul>
+</li>
+<li>Number<ul>
+<li>Number.prototype.toFixed</li>
+</ul>
+</li>
+<li>Array<ul>
+<li>Array.prototype.splice</li>
+<li>Array.prototype.forEach</li>
+</ul>
+</li>
+<li>Function<ul>
+<li>&#x81EA;&#x5B9A;&#x4E49;&#x5BF9;&#x8C61;&#x6784;&#x9020;&#x51FD;&#x6570;</li>
+<li>Function.prototype.apply</li>
+<li>Function.prototype.bind</li>
+<li>&#x5B50;&#x7C7B;&#x6784;&#x9020;&#x5668;</li>
+<li>&#x51FD;&#x6570;&#x8C03;&#x7528;</li>
+<li>&#x51FD;&#x6570;&#x53C2;&#x6570;<ul>
+<li>arguments</li>
+<li>&#x503C;&#x4F20;&#x9012;</li>
+<li>&#x51FD;&#x6570;&#x91CD;&#x8F7D;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>RegExp<ul>
+<li>RegExp.prototype.test</li>
+</ul>
+</li>
+<li>Date</li>
+</ul>
+</li>
+<li>&#x666E;&#x901A;&#x5BF9;&#x8C61;<pre><code>/*
+BEGIN    FOR EACH
+  &#x8BF4;&#x660E;
+  &#x5C5E;&#x6027;&#x3001;&#x65B9;&#x6CD5;
+END
+*/
+</code></pre><ul>
+<li>Math<ul>
+<li>Math.floor</li>
+<li>Math.random</li>
+</ul>
+</li>
+<li>JSON<ul>
+<li>JSON.stringify</li>
+<li>JSON.parse</li>
+</ul>
+</li>
+<li>&#x5168;&#x5C40;&#x5BF9;&#x8C61;<ul>
+<li>&#x5C5E;&#x6027;<ul>
+<li>NAN</li>
+</ul>
+</li>
+<li>&#x65B9;&#x6CD5;<ul>
+<li>parseInt</li>
+<li>eval</li>
+</ul>
+</li>
+<li>&#x5904;&#x7406;URI&#x65B9;&#x6CD5;<ul>
+<li>encodedURIComponent</li>
+</ul>
+</li>
+<li>&#x6784;&#x9020;&#x5668;&#x5C5E;&#x6027;</li>
+<li>&#x5BF9;&#x8C61;&#x5C5E;&#x6027;</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 
                     
                     </section>
@@ -730,10 +822,10 @@
         </div>
 
         
-        <a href="../../jsprogramming/debugger/index.html" class="navigation navigation-prev " aria-label="Previous page: 调试器"><i class="fa fa-angle-left"></i></a>
+        <a href="../../jsprogramming/typesystem/identitytype.html" class="navigation navigation-prev " aria-label="Previous page: 类型识别"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../../jsprogramming/basicsyntax/variable.html" class="navigation navigation-next " aria-label="Next page: 变量标识符"><i class="fa fa-angle-right"></i></a>
+        <a href="../../jsprogramming/variablescope/readmemd.html" class="navigation navigation-next " aria-label="Next page: 变量作用域"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

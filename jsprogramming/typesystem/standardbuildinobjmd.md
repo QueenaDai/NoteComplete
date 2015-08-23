@@ -1,6 +1,7 @@
+# 标准内置对象（13种）
 * 构造器对象
 ```
-/* 
+/*
 BEGIN    FOR EACH
     构造器说明
     构造器实例化对象方法
@@ -8,7 +9,7 @@ BEGIN    FOR EACH
     原型对象的属性、方法
     实例对象的属性、方法
 END
-*/ 
+*/
 ```
     * Object
         * Object.create
@@ -39,12 +40,12 @@ END
     * Date
 * 普通对象
 ```
-/* 
+/*
 BEGIN    FOR EACH
     说明
     属性、方法
 END
-*/ 
+*/
 ```
     * Math
         * Math.floor
