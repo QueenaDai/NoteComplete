@@ -1,7 +1,6 @@
 # 类型识别
-![](2.PNG)<br />
-* 前两个返回类型，后两个返回boolean
-* 返回类型均为【小写】，不可识别的都是object
-
-
-
+* [typeof]()
+* [Object.prototype.toString]()
+* [constructor]()
+* [instanceof]()
+* [总结]()

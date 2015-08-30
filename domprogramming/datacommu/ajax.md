@@ -1,0 +1,13 @@
+# AJAX
+* [AJAX通信流程]()
+* [AJAX调用调用]()
+    * 实例
+    * open
+    * setRequestHeader
+    * send
+* [请求参数序列化]()
+* [GET、POST请求实例]()
+* [同源策略]()
+* [跨域资源访问]()
+    * W3C标准跨域技术CORS
+    * 其他宽域技术FRAME代理、JSONP等

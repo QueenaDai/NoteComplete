@@ -1,0 +1,16 @@
+# 事件分类
+* [Event]()
+    * window
+    * image
+* [UIEvent]()
+* [MouseEvent]()
+    * 属性
+    * MouseEvent顺序
+        * 实例：拖动元素
+* [WheelEvent]()
+    * 属性
+* [FocusEvent]()
+    * 属性
+* [InputEvent]()
+* [KeyboardEvent]()
+    * 属性
