@@ -1,6 +1,12 @@
 # Summary
 
 * [Introduction](README.md)
+* [页面架构](pagearchitecture/README.md)
+   * [CSS Reset](pagearchitecture/cssreset/README.md)
+   * [布局解决方案](pagearchitecture/layoutsolution/README.md)
+   * [响应式](pagearchitecture/responsive/README.md)
+   * [页面优化](pagearchitecture/pageoptimization/README.md)
+   * [模范与模块化](pagearchitecture/modularmodel/README.md)
 * [javascript程序设计](jsprogramming/README.md)
    * [js介绍](jsprogramming/jsintroduction/README.md)
    * [基本语法（词法重点）](jsprogramming/basicsyntax/README.md)
